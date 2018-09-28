@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>CheckerBoard</title>
+</head>
+<body>
+	<div class="container">
+	
+		<%	int width =0; int height = 0;
+			if(request.getParameter("width") != null){
+				width = request.getParameter("width");
+			}
+		%>
+		<h1>CheckerBoard: <%width%> X <%height%></h1>
+	</div>
+</body>
+</html>

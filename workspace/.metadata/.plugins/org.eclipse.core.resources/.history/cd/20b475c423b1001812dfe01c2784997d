@@ -1,0 +1,11 @@
+package com.codingdojo.objectmaster;
+
+public class Wizard extends Human {
+	public Wizard() {
+		this.health = 50;
+		this.intelligence = 8;
+	}
+	public Human heal(Human healed) {
+		healed.health += this.intelligence;
+	}
+}

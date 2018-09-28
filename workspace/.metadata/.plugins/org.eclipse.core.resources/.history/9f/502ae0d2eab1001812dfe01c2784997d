@@ -1,0 +1,9 @@
+package com.codingdojo.pokemon;
+import Pokemon;
+
+public interface PokemonInterface {
+	public Pokemon createPokemon(String name, int health, String type) {
+		
+		return
+	}
+}

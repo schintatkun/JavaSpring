@@ -1,0 +1,14 @@
+
+public class CalculatorTester {
+	public static void main(String[] args) {
+		Calculator test1 = new Calculator();
+		test1.setOperandOne(10);
+		test1.setOperandTwo(2.5);
+		test1.setOperation("+");
+		test1.performOperation();
+		test1.getResults();
+		
+		Calculator test2 = new Calculator();
+		test2.setOperation("2");
+	}
+}

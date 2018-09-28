@@ -1,0 +1,45 @@
+package com.codingdojo.bankaccount;
+import java.util.Random;
+
+public class BankAccount {
+	private String accountNumber;
+	private double checkingBalance;
+	private double savingBalance;
+	private static int accountCreated;
+	private static double accountBalance;
+	public BankAccount() {
+		this.accountNumber = createAccountNo();
+		this.accountCreated ++;
+	}
+	
+	public String createAccountNo() {
+		String accountNo = "";
+		for (int i = 0;i<10;i++) {
+			//Math.random()  result 0.1-1.0
+			int random = (int) Math.random()*10;
+			accountNo +=random;
+		}
+		return accountNo;
+	}
+	public static int getAccountCount() {
+		return accountCreated;
+	}
+	public double checkBalance() {
+		return this.checkingBalance;
+	}
+	public double savingBalance() {
+		return this.savingBalance;
+	}
+	public void depositMoney(String accounttype, double money) 
+	if(accountType == "checking") {
+		this.checkingBalance += money;
+	} else if(accountType == "savings") {
+		this.savingsBalance += money;
+	} else {
+		System.out.println("Please choose either your savings or your checking account into which to deposit.");
+	}
+	accountBalance += money;
+	System.out.println("Deposited $"+df.format(amount)+" into your "+accountType+" account.");
+}
+
+}

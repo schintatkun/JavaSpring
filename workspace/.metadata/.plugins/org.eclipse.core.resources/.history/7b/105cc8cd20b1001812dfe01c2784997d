@@ -1,0 +1,8 @@
+package com.codingdojo.objectmaster;
+
+public class Human {
+	private int health;
+	public Human() {
+		this.health = 100;
+	}
+}

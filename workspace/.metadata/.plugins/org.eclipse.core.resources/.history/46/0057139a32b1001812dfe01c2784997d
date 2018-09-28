@@ -1,0 +1,20 @@
+package com.codingdojo.objectmaster;
+
+public class subHumanClassTest {
+	public static void main(String[] args) {
+		Wizard newWizard = new Wizard();
+		Ninja newNinja = new Ninja();
+		Samurai newSamurai = new Samurai();
+		
+		newWizard.displayHealth();
+		newWizard.fireBall(newNinja);
+		
+		newNinja.displayHealth();
+		newNinja.steal(newWizard);
+		
+		newWizard.displayHealth();
+		
+		newSamurai.deathBlow(newNinja);
+		newNinja.displayHealth();
+	}
+}

@@ -1,0 +1,6 @@
+
+public class IPhone {
+	public IPhone(String versionNumber, int batterPercentage, String carrier, String ringTone) {
+		super(versionNumber, batteryPercentage, carrier, ringTone);
+	}
+}

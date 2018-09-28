@@ -1,0 +1,13 @@
+
+public class Pokemon {
+	private String name;
+	private int health;
+	private String type;
+	private static int count;
+	public Pokemon(String name, int health, String type) {
+		this.name = name;
+		this.health = health;
+		this.type = type;
+		this.count ++;
+	}
+}

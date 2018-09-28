@@ -1,0 +1,12 @@
+package com.codingdojo.objectmaster;
+
+public class Samurai extends Human {
+	public Samurai() {
+		this.health =200;
+	}
+	public Sumarai deathBlow(Human target) {
+		this.health *=0.50;
+		target.health = 0;
+		return this;
+	}
+}

@@ -1,0 +1,12 @@
+package com.codingdojo.zookeeper;
+
+public class Bat extends Mammal{
+	private int energy;
+	public Bat() {
+		this.energy = 300;
+	}
+	public void fly() {
+		this.energy -=50;
+		System.out.println("Bat is taking off");
+	}
+}

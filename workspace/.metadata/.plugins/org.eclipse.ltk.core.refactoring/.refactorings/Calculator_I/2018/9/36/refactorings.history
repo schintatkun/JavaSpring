@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Calculator_II/src&apos;&#x0A;- Original project: &apos;Calculator_I&apos;&#x0A;- Destination element: &apos;Calculator_II/src&apos;&#x0A;- Original elements:&#x0A;     Calculator.java&#x0A;     CalculatorTester.java" description="Copy compilation units" destination="=Calculator_II/src" element1="/src&lt;{Calculator.java" element2="/src&lt;{CalculatorTester.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1536276403058" units="2" version="1.0"/>
+</session>

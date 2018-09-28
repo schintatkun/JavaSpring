@@ -1,0 +1,9 @@
+package com.codingdojo.bankaccount;
+
+public class BankAccountTest {
+	public static void main(String[] args) {
+		BankAccount accNo1 = new BankAccount();
+		accNo1.createAccountNo();
+		
+	}
+}

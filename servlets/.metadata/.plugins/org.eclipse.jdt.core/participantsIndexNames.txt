@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+/Users/Nutsu/Desktop/java/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/276982190.index
+/jsp/src
+/Users/Nutsu/Desktop/java/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/69312873.index
+/Checkerboard/src
+/Users/Nutsu/Desktop/java/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/350350718.index
+/GreatNumberGame/src
+/Users/Nutsu/Desktop/java/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1584862440.index
+/buttonClicker/src
+/Users/Nutsu/Desktop/java/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/464303813.index
+/Pets/src
+/Users/Nutsu/Desktop/java/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/74072052.index
+/GreatNumberGame/src
+/Users/Nutsu/Desktop/java/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/917303662.index
+/Pets/src

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="buttonClicker">
+        <property name="context-root" value="buttonClicker"/>
+        <property name="java-output-path" value="/buttonClicker/build/classes"/>
+    </wb-module>
+</project-modules>

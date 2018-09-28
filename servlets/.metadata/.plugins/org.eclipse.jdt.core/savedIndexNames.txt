@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+/Users/Nutsu/Desktop/java/servlets/.metadata/.plugins/org.eclipse.jdt.core
+2197673429.index
+76831108.index
+3585280257.index
+3359798667.index
+3927879410.index
+982028880.index
+3894482773.index
+1970919810.index

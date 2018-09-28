@@ -1,0 +1,11 @@
+package com.codingdojo.objectmaster;
+
+public class HumanTest {
+	public static void main(String[] args) {
+		Human mrDumb = new Human();
+		Human mrDumber = new Human();
+		
+		mrDumb.attack(mrDumber);
+		mrDumber.displayHealth();
+	}
+}

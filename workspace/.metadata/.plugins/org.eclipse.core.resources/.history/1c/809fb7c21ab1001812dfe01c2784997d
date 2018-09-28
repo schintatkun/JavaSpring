@@ -1,0 +1,8 @@
+package com.codingdojo.zookeeper;
+
+public class Bat {
+	this.energy = 300;
+	public void fly() {
+		
+	}
+}

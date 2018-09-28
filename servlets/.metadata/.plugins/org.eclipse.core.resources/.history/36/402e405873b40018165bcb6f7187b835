@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Pets Assignment</title>
+</head>
+<body>
+	<h1>Make a dog!</h1>
+	<form action="animal/cat" method="get">
+		Name: <input type="text" name="name"><br>
+		Breed: <input type="text" name="breed"><br>
+		Weight: <input type="number" name="weight"><br>
+		<input type="submit">
+	</form>
+	<h1>Make a cat!</h1>
+	<form action="/animal/Cat" method="get">
+		Name: <input type="text" name="name"><br>
+		Breed: <input type="text" name="breed"><br>
+		Weight: <input type="number" name="weight"><br>
+		<input type="submit">
+	</form>
+</body>
+</html>

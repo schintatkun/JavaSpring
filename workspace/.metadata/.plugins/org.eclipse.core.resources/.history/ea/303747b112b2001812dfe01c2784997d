@@ -1,0 +1,19 @@
+package com.codingdojo.pokemon;
+
+public class pokemonTest {
+	public static void main(String[] args) {
+		Pokemon monster1 = new Pokemon("Pikachu", 300, "Lighting");
+		Pokemon monster2 = new Pokemon("Charamander", 200, "Fire");
+		Pokemon monster3 = new Pokemon("Bulbasaur", 250, "Plant");
+		Pokemon monster4 = new Pokemon("Arbok", 150, "Snake");
+		
+		Pokedex dex1 = new Pokedex();
+		Pokemon x = dex1.createPokemon("Pikachu", 300, "Lighting");
+		System.out.println(dex1.pokemonInfo(x));
+//		System.out.println(dex1.pokemonInfo(monster2));
+//		System.out.println(dex1.pokemonInfo(monster3));
+//		System.out.println(dex1.pokemonInfo(monster4));
+		
+		dex1.listPokemon();
+	}
+}

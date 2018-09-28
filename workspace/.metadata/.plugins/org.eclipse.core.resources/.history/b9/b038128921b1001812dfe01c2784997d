@@ -1,0 +1,15 @@
+package com.codingdojo.objectmaster;
+
+public class Human {
+	private int health;
+	private int strength;
+	private int stealth;
+	private int intelligence;
+	
+	public Human() {
+		this.health = 100;
+		this.strength =3;
+		this.stealth =3;
+		this.intelligence =3;
+	}
+}

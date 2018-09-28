@@ -1,0 +1,7 @@
+package com.codingdojo.objectmaster;
+
+public class Samurai extends Human {
+	public Samurai() {
+		this.health =200;
+	}
+}

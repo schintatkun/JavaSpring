@@ -1,0 +1,15 @@
+package com.codingdojo.pokemon;
+import java.util.ArrayList;
+public class Pokedex extends AbstractPokemon {
+	ArrayList<String> myPokemons = new ArrayList<>();
+	public String pokemonInfo(Pokemon pokemon) {
+		String result = String.format("Name: %s, Health: %s, Type:  %s", pokemon.getName(), pokemon.getHealth(), pokemon.getType());
+		return result;
+	}
+
+	@Override
+	public void listPokemon() {
+		// TODO Auto-generated method stub
+		
+	}
+}

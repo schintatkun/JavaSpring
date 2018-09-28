@@ -1,0 +1,5 @@
+package com.codingdojo.pokemon;
+
+public class Pokedex extends AbstractPokemon {
+	System.out.println("Name: "+this.getName()+" Health : "+Pokemon.getHealth()+" Type: "+pokemon.getType());
+}

@@ -1,0 +1,15 @@
+package com.codingdojo.pokemon;
+
+public class Pokedex extends AbstractPokemon {
+	
+	public String pokemonInfo(Pokemon pokemon) {
+		String result = String.("Name: "+pokemon.getName()+" Health : "+pokemon.getHealth()+" Type: "+pokemon.getType());
+		return result;
+	}
+
+	@Override
+	public void listPokemon() {
+		// TODO Auto-generated method stub
+		
+	}
+}

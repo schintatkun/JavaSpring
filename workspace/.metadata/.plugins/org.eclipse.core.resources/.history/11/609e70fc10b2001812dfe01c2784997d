@@ -1,0 +1,9 @@
+package com.codingdojo.pokemon;
+
+public class pokemonTest {
+	public static void main(String[] args) {
+		Pokemon monster1 = new Pokemon("Pikachu", 200, "minisize");
+		Pokedex dex1 = new Pokedex();
+		System.out.print(dex1.pokemonInfo(monster1));
+	}
+}

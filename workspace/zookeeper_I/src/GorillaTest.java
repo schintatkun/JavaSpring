@@ -1,0 +1,20 @@
+
+public class GorillaTest {
+	public static void main(String[] args) {
+		Gorilla gorilla = new Gorilla();
+		
+		//throw thing 3 times
+		gorilla.throwSomething();
+		gorilla.throwSomething();
+		gorilla.throwSomething();
+		
+		//eat banana twice
+		gorilla.eatBananas();
+		gorilla.eatBananas();
+		
+		//climb once
+		gorilla.climb();
+		
+		gorilla.displayEnergy();
+	}
+}

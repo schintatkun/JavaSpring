@@ -1,0 +1,21 @@
+package com.codingdojo.objectmaster;
+
+public class Samurai extends Human {
+	private static int numSumurai;
+	public Samurai() {
+		this.health =200;
+		numSamurai ++;
+	}
+	public Samurai deathBlow(Human target) {
+		this.health *=0.50;
+		target.health = 0;
+		return this;
+	}
+	public Samurai meditate() {
+		this.health += this.health*0.5;
+		return this;
+	}
+	public howMany() {
+		return sumSamurai;
+	}
+}
